@@ -1,3 +1,5 @@
+TAG = 1.0.0
+
 all: lint build
 
 apply:
@@ -19,3 +21,6 @@ lint:
 plan:
 	terraform init -reconfigure
 	terraform plan -out=tfplan
+
+tag:
+	@echo $(TAG)
