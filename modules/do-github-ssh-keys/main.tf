@@ -1,5 +1,25 @@
 /**
  * Import SSH Public keys from GitHub for specified users into DO.
+ *
+ * ## Example Usage
+ *
+ * ```hcl
+ * module "ssh_keys" {
+ *   source = "git::https://github.com/cbdq-io/do-terraform-modules/modules/do-github-ssh-keys?ref=main"
+ *
+ *   github_usernames = [
+ *     "cbdqbot",
+ *     "dallinb",
+ *     "dallinv",
+ *     "jaloughlin"
+ *   ]
+ * }
+ *
+ * output "ssh_keys" {
+ *   description = "List of all SSH key fingerprints created."
+ *   value       = module.ssh_keys.ssh_keys
+ * }
+ * ```
  */
 
 locals {
