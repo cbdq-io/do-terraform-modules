@@ -9,6 +9,8 @@
 
 ### Continuous Integration
 
+* Add a rudimentary CI pipeline. [Ben Dalling]
+
 * Add GitHub workflows. [Ben Dalling]
 
 ### Documentation
