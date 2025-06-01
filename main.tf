@@ -2,7 +2,7 @@ terraform {
   required_version = "~> 1.9"
 }
 
-module "ssh_keys" {
+module "do_github_ssh_keys" {
   source = "./modules/do-github-ssh-keys"
 
   github_usernames = [
@@ -13,7 +13,7 @@ module "ssh_keys" {
   ]
 }
 
-output "ssh_keys" {
+output "do_ssh_keys" {
   description = "List of all SSH key fingerprints created."
-  value       = module.ssh_keys.ssh_keys
+  value       = module.do_github_ssh_keys.ssh_keys
 }
