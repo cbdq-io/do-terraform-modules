@@ -7,6 +7,10 @@
 
 * Create the do-github-ssh-keys module. [Ben Dalling]
 
+### Fix
+
+* Correct markdown link. [Ben Dalling]
+
 ### Continuous Integration
 
 * Add GitHub workflows. [Ben Dalling]
