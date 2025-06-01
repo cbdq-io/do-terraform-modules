@@ -1,0 +1,24 @@
+name: Terraform CI
+
+on:
+  push:
+
+jobs:
+  terraform:
+    name: Terraform & TFLint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Install TFLint
+        run: |
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+          tflint --version
+
+      - name: Lint
+        run: make lint
