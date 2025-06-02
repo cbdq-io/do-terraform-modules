@@ -31,4 +31,5 @@ No inputs.
 | Name | Description |
 |------|-------------|
 | <a name="output_ssh_keys"></a> [ssh\_keys](#output\_ssh\_keys) | List of all SSH key fingerprints created. |
+| <a name="output_user_ssh_key_fingerprints"></a> [user\_ssh\_key\_fingerprints](#output\_user\_ssh\_key\_fingerprints) | Map of GitHub usernames to a list of their SSH key fingerprints. |
 <!-- END_TF_DOCS -->
