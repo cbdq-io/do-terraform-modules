@@ -5,7 +5,7 @@
  *
  * ```hcl
  * module "ssh_keys" {
- *   source = "git::https://github.com/cbdq-io/do-terraform-modules/modules/do-github-ssh-keys?ref=main"
+ *   source = "git::https://github.com/cbdq-io/do-terraform-modules.git//modules/do-github-ssh-keys?ref=1.0.0"
  *
  *   github_usernames = [
  *     "cbdqbot",
