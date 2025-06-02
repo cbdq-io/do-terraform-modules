@@ -3,6 +3,10 @@
 
 ## Unreleased
 
+### Features
+
+* Add the user_ssh_key_fingerprints output to the do-github-ssh-keys module. [Ben Dalling]
+
 ### Fix
 
 * Correct source URL for the do-github-ssh-keys module. [Ben Dalling]
