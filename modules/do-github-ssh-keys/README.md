@@ -5,7 +5,7 @@ Import SSH Public keys from GitHub for specified users into DO.
 
 ```hcl
 module "ssh_keys" {
-  source = "git::https://github.com/cbdq-io/do-terraform-modules/modules/do-github-ssh-keys?ref=main"
+  source = "git::https://github.com/cbdq-io/do-terraform-modules.git//modules/do-github-ssh-keys?ref=1.0.0"
 
   github_usernames = [
     "cbdqbot",
@@ -59,4 +59,5 @@ No modules.
 |------|-------------|
 | <a name="output_github_usernames"></a> [github\_usernames](#output\_github\_usernames) | The list of GitHub usernames provided. |
 | <a name="output_ssh_keys"></a> [ssh\_keys](#output\_ssh\_keys) | List of all SSH key fingerprints created. |
+| <a name="output_user_ssh_key_fingerprints"></a> [user\_ssh\_key\_fingerprints](#output\_user\_ssh\_key\_fingerprints) | Map of GitHub usernames to a list of their SSH key fingerprints. |
 <!-- END_TF_DOCS -->
