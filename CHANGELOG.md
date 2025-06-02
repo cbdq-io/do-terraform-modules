@@ -7,6 +7,10 @@
 
 * Correct source URL for the do-github-ssh-keys module. [Ben Dalling]
 
+### Build
+
+* Remove devcontainer from dependabot. [Ben Dalling]
+
 
 ## 1.0.0 (2025-06-01)
 
