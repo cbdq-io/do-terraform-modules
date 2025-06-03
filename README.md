@@ -16,6 +16,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
+| <a name="module_hub"></a> [hub](#module\_hub) | ./modules/do-hub | n/a |
 | <a name="module_ssh_keys"></a> [ssh\_keys](#module\_ssh\_keys) | ./modules/do-github-ssh-keys | n/a |
 
 ## Resources

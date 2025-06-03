@@ -16,6 +16,8 @@ destroy:
 
 lint:
 	terraform fmt -check -diff -recursive
+	terraform init
+	terraform validate
 	tflint --recursive
 
 plan:

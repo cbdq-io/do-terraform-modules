@@ -13,6 +13,13 @@ module "ssh_keys" {
   ]
 }
 
+module "hub" {
+  source = "./modules/do-hub"
+
+  region       = "lon1"
+  vpc_ip_range = "10.10.0.0/22"
+}
+
 output "ssh_keys" {
   description = "List of all SSH key fingerprints created."
   value       = module.ssh_keys.ssh_keys
