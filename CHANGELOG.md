@@ -5,6 +5,8 @@
 
 ### Features
 
+* Add the do-hub module. [Ben Dalling]
+
 * Add the user_ssh_key_fingerprints output to the do-github-ssh-keys module. [Ben Dalling]
 
 ### Fix
