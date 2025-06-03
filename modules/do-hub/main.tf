@@ -37,7 +37,7 @@ resource "digitalocean_loadbalancer" "hub" {
       entry_port       = forwarding_rule.value.entry_port
       target_protocol  = forwarding_rule.value.target_protocol
       target_port      = forwarding_rule.value.target_port
-      certificate_name = lookup(forwarding_rule.value.certificate_name, null)
+      certificate_name = lookup(forwarding_rule.value, "certificate_name", null)
     }
   }
 
