@@ -13,6 +13,21 @@
 
 ### Build
 
+* Bump hashicorp/setup-terraform from 3 to 4. [dependabot[bot]]
+
+  Bumps [hashicorp/setup-terraform](https://github.com/hashicorp/setup-terraform) from 3 to 4.
+  - [Release notes](https://github.com/hashicorp/setup-terraform/releases)
+  - [Changelog](https://github.com/hashicorp/setup-terraform/blob/main/CHANGELOG.md)
+  - [Commits](https://github.com/hashicorp/setup-terraform/compare/v3...v4)
+
+  ---
+  updated-dependencies:
+  - dependency-name: hashicorp/setup-terraform
+    dependency-version: '4'
+    dependency-type: direct:production
+    update-type: version-update:semver-major
+  ...
+
 * Bump actions/checkout from 5 to 6. [dependabot[bot]]
 
   Bumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6.
